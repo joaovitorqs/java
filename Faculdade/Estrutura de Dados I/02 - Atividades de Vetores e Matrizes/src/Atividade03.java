@@ -1,13 +1,13 @@
-import java.util.Scanner;
+/*import java.util.Scanner;
 
 public class Atividade03 {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
 
-        double[][] matriz = new double[3][3];
+        double[][] matriz = new double[50][3];
         String[] nome = new String[3];
 
-        for(int i = 0; i< 3; i++){
+        for(int i = 0; i< 50; i++){
             System.out.println("Qual o nome do "+(i+1)+"º Aluno:");
             nome[i] = scanner.nextLine();
 
@@ -28,4 +28,4 @@ public class Atividade03 {
         scanner.close();
     }
 }
-
+*/

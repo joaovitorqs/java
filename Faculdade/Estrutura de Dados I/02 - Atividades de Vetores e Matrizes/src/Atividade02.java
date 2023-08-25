@@ -1,4 +1,4 @@
-/*import java.util.Scanner;
+import java.util.Scanner;
 
 public class Atividade02 {
     public static void main(String[] args) throws Exception {
@@ -11,8 +11,8 @@ public class Atividade02 {
         String[] nome = new String[limite];
         int[] idade = new int[limite];
         double[] altura = new double[limite];
-        double[] peso = new double[limite];
-        double[] imc = new double[limite];
+        //double[] peso = new double[limite];
+        //double[] imc = new double[limite];
         int ordem = 1;
 
 
@@ -23,18 +23,18 @@ public class Atividade02 {
             System.out.println("Altura em metros dá "+ordem+"º pessoa:");
             altura[i] = scanner.nextDouble();
 
-            System.out.println("Peso em kilogramas dá "+ordem+"º pessoa:");
-            peso[i] = scanner.nextDouble();
+            /*System.out.println("Peso em kilogramas dá "+ordem+"º pessoa:");
+            peso[i] = scanner.nextDouble();*/
 
             System.out.println("Idade dá "+ordem+"º pessoa:");
             idade[i] = scanner.nextInt();
             ordem++;
             
-            imc[i] = peso[i] / (altura[i] * altura[i]);
+            //imc[i] = peso[i] / (altura[i] * altura[i]);
         }
         scanner.close();
         
-        System.out.println("Pessoas com IMC alto(>= 25 e < 30):");
+        /*System.out.println("Pessoas com IMC alto(>= 25 e < 30):");
 
         for(int i = 0; i<limite; i++){
             if(imc[i]>= 25 & imc[i]<30 ){
@@ -48,7 +48,11 @@ public class Atividade02 {
             if(imc[i]< 25){
                 System.out.println(nome[i]);
             }   
-        }
+        }*/
+        System.out.println("Nome na posição 3 = "+nome[2]);
+        System.out.println("Idade na posição 6 = "+idade[5]);
+        System.out.println("Altura na posição 10 = "+altura[9]);
+        
     }
 }
-*/
+
